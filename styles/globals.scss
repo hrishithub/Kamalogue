@@ -18,7 +18,7 @@ body {
      background: #D3D3D3; 
      background-color: rgb(245, 245, 245);
 
-    // background-image: url("../public/bg3.jpg");
+     background-image: url("../public/grid.svg");
     // opacity: 0.2;
     position: fixed;
     left: 0;
@@ -55,6 +55,9 @@ body {
   opacity: 0.15;
 }   
 
+.desc {
+  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+} 
 .h-18 {
   height: 5.5rem;
 }
