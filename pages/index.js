@@ -47,12 +47,12 @@ export default function Home({posts}) {
     <p className="text-lg ml-5 font-10px font-bold text-black-700 mb-4"> Be a part of thriving blog community with our growing platform !</p> 
     <h2 className='desc text-centre'>Join an active community of developers, tech & sports enthusiasts, historians and creators on Kamalogue. Publish your blogs on Kamalogue, share ideas, and connect with a global audience!</h2>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLScdHYmNOxhfk1P2fw-i2qpzb14PivRXgCV8fdGX-Tk2ER3ggQ/viewform?usp=sf_link">
-      <button className="transition duration-500 ease transform hover:-translate-y-1 inline-block sm:ml-50 bg-blue-600 hover:bg-blue-700 text-lg font-medium rounded-full text-white mt-5 px-8 py-3 cursor-pointer">
+      <button className="transition duration-500 ease transform hover:-translate-y-1 inline-block sm:ml-50 bg-blue-600 hover:bg-blue-700 text-lg font-medium rounded-full text-white mt-5 mb-5 px-8 py-3 cursor-pointer">
         Get started for free!
       </button>
     </a>
   </div>
-  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1643394967065/pOn8uxJFD.png?auto=compress" alt="" class="object-contain max-w-full sm:h-60 sm:w-60 h-0 w-0 ml-auto sm:ml-auto mt-5 sm:mt-auto" />
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1643394967065/pOn8uxJFD.png?auto=compress" alt="" className="object-contain max-w-full sm:h-60 sm:w-60 h-0 w-0 ml-auto sm:ml-auto mt-autos sm:mt-auto" />
 </div>
 
 
