@@ -10,14 +10,16 @@
 
 # next.js
 /.next/
-/out/
+/out/ 
+
+
+Kamalogue/
 
 # production 
 /build 
 
 
 
-Kamalogue/
 
 
 # misc
