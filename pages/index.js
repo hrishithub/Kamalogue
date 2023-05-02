@@ -40,7 +40,10 @@ export default function Home({posts}) {
               <Categories />
             </div>
           </div>
-        </div> 
+        </div>  
+
+
+        {/* Join us  */}
 
         <div className="mt-10 sm:mt-20 mb-8 p-8 relative rounded-lg bg-blue-500 bg-opacity-10 flex flex-col sm:flex-row items-center">
   <div className="text-center">
@@ -55,6 +58,18 @@ export default function Home({posts}) {
   <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1643394967065/pOn8uxJFD.png?auto=compress" alt="" className="object-contain max-w-full sm:h-60 sm:w-60 h-auto w-autos ml-auto sm:ml-auto mt-autos sm:mt-auto" />
 </div>
 
+
+{/* Founders word */}
+<div className="text-center mt-20 mb-8 p-12 relative rounded-lg bg-blue-500 bg-opacity-10">
+    <div className="absolute left-0 right-0 -top-14">
+    <img src="/orangeme.jpg" alt="founders image"  height= "100" width="100" className="align-middle rounded-full sm:h-70 sm:w-70" />
+     
+    </div>
+    <p className="text-xl  font-40px font-bold text-black-700 mb-4 ">Hrishikesh Gawde</p>
+    
+    <p className="mt-5 text-base text-gray-600 sm:text-lg sm:ml-50 max-w-2xl mx-auto">" As the founder of Kamalogue, my vision for the blog site is to provide a space where people can explore a diverse range of topics beyond just technology. From health and wellness to sports and entertainment, our platform aims to deliver a variety of insightful and thought-provoking content. Additionally, with our AI-powered blog summarization feature, we strive to make reading and learning more efficient and accessible for our readers. Join us on this journey of discovery and enlightenment."</p>
+
+  </div>
 
 
 
