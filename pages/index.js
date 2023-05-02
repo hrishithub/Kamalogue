@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { PostCard, Categories, PostWidget } from '../components'
+import { PostCard, Categories, PostWidget , Social } from '../components'
 import { getPosts } from '../services'
 import { FeaturedPosts } from '../sections/index';
 
@@ -66,7 +66,7 @@ export default function Home({posts}) {
     </div>
     <p className="text-xl  font-40px font-bold text-black-700 mb-4 ">Hrishikesh Gawde</p>
     
-    <p className="mt-5 text-base text-gray-600 sm:text-lg sm:ml-50 max-w-2xl mx-auto"> As the founder of Kamalogue, my vision for the blog site is to provide a space where people can explore a diverse range of topics beyond just technology. From health and wellness to sports and entertainment, our platform aims to deliver a variety of insightful and thought-provoking content. Additionally, with our AI-powered blog summarization feature, we strive to make reading and learning more efficient and accessible for our readers. Join us on this journey of discovery and enlightenment.</p>
+    <p className="mt-5 text-base text-gray-600 sm:text-lg sm:ml-50 max-w-2xl mx-auto"> " As the founder of Kamalogue, my vision for the blog site is to provide a space where people can explore a diverse range of topics beyond just technology. From health and wellness to sports and entertainment, our platform aims to deliver a variety of insightful and thought-provoking content. Additionally, with our AI-powered blog summarization feature, we strive to make reading and learning more efficient and accessible for our readers. Join us on this journey of discovery and enlightenment." </p>
 
   </div>
  
@@ -91,7 +91,12 @@ export default function Home({posts}) {
 
 
 
-  </div>
+  </div> 
+
+  <h3 className='text-lg text-gray-600 sm:text-xl text-center max-w-2xl'>Copyright © 2023 Kamalogue Inc. All rights reserved.</h3> 
+  <Image src="/round.png" alt="Image 4" width={300} height={300} className='mt-5' />
+
+  < Social className="mt: -10"/>
       <style jsx>{`
         .container {
           padding: 0 16px;
