@@ -12,8 +12,13 @@
 /.next/
 /out/
 
-# production
-/build
+# production 
+/build 
+
+
+
+Kamalogue/
+
 
 # misc
 .DS_Store
@@ -36,4 +41,3 @@ yarn-error.log*
 next-env.d.ts
 
 
-Kamalogue/
