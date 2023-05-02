@@ -7,8 +7,23 @@ import { FeaturedPosts } from '../sections/index';
 const inter = Inter({ subsets: ['latin'] }) 
 
 const posts = [
-  {title: 'React testing', excerpt:'Learn React Testing'}
-]
+  { title: 'React testing', excerpt:'Learn React Testing'}
+] 
+
+export async function getStaticProps() {
+  try {
+    const posts = (await getPosts() )|| [];
+    console.log(posts)
+    return {
+      props: { posts }
+    }
+  } catch (error) {
+    console.error(error)
+    return {
+      props: { posts: null }
+    }
+  }
+}
 
 export default function Home({posts}) {
   return (
@@ -96,17 +111,4 @@ export default function Home({posts}) {
   )
 } 
 
-export async function getStaticProps() {
-  try {
-    const posts = (await getPosts() )|| [];
-    console.log(posts)
-    return {
-      props: { posts }
-    }
-  } catch (error) {
-    console.error(error)
-    return {
-      props: { posts: null }
-    }
-  }
-}
+
